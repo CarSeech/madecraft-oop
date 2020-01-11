@@ -21,7 +21,7 @@ public class Pond {
 		System.out.println(mobyDuck);
 		
 		// Exercise: Make the Duck quack
-		
+		mobyDuck.quack();
 	}
 
 }
