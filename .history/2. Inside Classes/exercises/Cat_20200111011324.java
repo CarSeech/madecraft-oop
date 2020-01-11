@@ -31,7 +31,7 @@ public class Cat {
 			
 	}
 	public String toString () {
-		return "My name is " + "'"+ name + "'" +"!";
+		return "My name is " + name +"!";
 	}
 	public static void main(String[] args) {
 		/* Do the following things without changing the Cat class */
@@ -46,10 +46,6 @@ public class Cat {
 		tom.printName();
 
 		// 3. Kill the Cat!
-
-		for ( int i = 0; i < 9 ; i++ ){
-		tom.kill();
-		}
 
 	}
 }

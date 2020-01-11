@@ -28,28 +28,16 @@ public class Cat {
 			System.out.println("that's overkill yo!");
 		else
 			System.out.println("DEAD CAT :(");
-			
 	}
-	public String toString () {
-		return "My name is " + "'"+ name + "'" +"!";
-	}
+
 	public static void main(String[] args) {
 		/* Do the following things without changing the Cat class */
 
 		// 1. Make the Cat meow
-		Cat tom = new Cat(null);
-		tom.meow();
-
 		
 		// 2. Get the Cat to print it's name
-		System.out.println(tom);
-		tom.printName();
 
 		// 3. Kill the Cat!
-
-		for ( int i = 0; i < 9 ; i++ ){
-		tom.kill();
-		}
 
 	}
 }

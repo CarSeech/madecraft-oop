@@ -47,10 +47,6 @@ public class Cat {
 
 		// 3. Kill the Cat!
 
-		for ( int i = 0; i < 9 ; i++ ){
-		tom.kill();
-		}
-
 	}
 }
 

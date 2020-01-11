@@ -31,25 +31,20 @@ public class Cat {
 			
 	}
 	public String toString () {
-		return "My name is " + "'"+ name + "'" +"!";
+		return "My name is " + name +"!";
 	}
 	public static void main(String[] args) {
 		/* Do the following things without changing the Cat class */
 
 		// 1. Make the Cat meow
-		Cat tom = new Cat(null);
+		Cat tom = new Cat("Tom");
 		tom.meow();
 
 		
 		// 2. Get the Cat to print it's name
 		System.out.println(tom);
-		tom.printName();
 
 		// 3. Kill the Cat!
-
-		for ( int i = 0; i < 9 ; i++ ){
-		tom.kill();
-		}
 
 	}
 }
