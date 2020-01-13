@@ -27,11 +27,4 @@ public class Minion {
         return this.color;
     }
     
-    public void setMaster (String masterName){
-        this.master = masterName;
-    }
-
-    public String getMaster() {
-        return this.master;
-    }
 }
