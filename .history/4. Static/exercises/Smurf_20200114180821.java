@@ -5,16 +5,10 @@ import java.util.ArrayList;
 public class Smurf {
 
 	private String name;
-	private static ArrayList <String> smurfList = new ArrayList<>();
+	private ArrayList <String> smurfList = new ArrayList<>();
 
 	public static Smurf createSmurf(String name) {
-		if (!smurfList.contains(name))
-		{
-			System.out.println("Creating " + name + " Smurf");
-			smurfList.add(name);
-		}
-
-		
+		System.out.println("Creating " + name + " Smurf");
 		return new Smurf(name);
 	}
 

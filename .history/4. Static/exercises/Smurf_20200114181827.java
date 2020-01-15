@@ -11,7 +11,7 @@ public class Smurf {
 		if (!smurfList.contains(name))
 		{
 			System.out.println("Creating " + name + " Smurf");
-			smurfList.add(name);
+			
 		}
 
 		
